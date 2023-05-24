@@ -1,0 +1,84 @@
+body{
+    background-color: black; color:
+     aliceblue;
+}
+
+*{
+    font-family: 'Dancing Script', cursive;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../IMG/Fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    justify-content: center;
+}
+
+h1{
+    color: aliceblue;
+    font-size: 80px;
+    text-align: center;
+    justify-content: center;
+}
+
+.principal{
+    text-align: justify;
+    margin: 30px;
+}
+
+.header p{
+    margin: 35px;
+    font-size: 50px;
+    text-align: justify;
+}
+
+.principal article{
+    border: 3px dotted rgb(245, 193, 245);
+    margin: 12px 55px;
+    padding: 25px;
+    text-align: center;
+}
+
+.principal h2{
+    text-align: center;
+    font-size: 65px;
+}
+
+.container-gal{
+    width: 95%;
+    align-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+div.galeria{
+    margin: 15px;
+    box-shadow: 3px 5px 9px rgb(175, 249, 249);
+    width: 300px;
+    margin: 0 auto;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.galeria img{
+    height: 300px;
+    width: 300px;
+    margin: 15px auto;
+    justify-content: center;
+    
+}
+
+footer{
+    background-color: black; 
+    color:aliceblue;
+    height: 50px;
+    text-align: center;
+    padding: 20px;
+    font-size: 22px;
+}
+
+
