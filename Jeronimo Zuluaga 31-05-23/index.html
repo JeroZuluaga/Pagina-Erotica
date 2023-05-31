@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="https://previews.123rf.com/images/sandyche/sandyche1605/sandyche160500594/57171916-tecnolog%C3%ADa-internet-y-redes-pago-culo-de-mujer-y-terminal-pos-contenido-para-adultos.jpg" type="image/x-icon">
+    <title>CALCULADORA</title>
+</head>
+<body>
+    
+
+    <div class="container">
+        <h1>CASIO</h1>
+        <form action="" name="calculator">
+            <input type="textfile" autocomplete="off" value="" name="ans" readonly class="tt">
+            <br><br>
+            <input type="button" value="7" class="gray" onclick="document.calculator.ans.value+='7'">
+            <input type="button" value="8" class="gray" onclick="document.calculator.ans.value+='8'">
+            <input type="button" value="9" class="gray" onclick="document.calculator.ans.value+='9'">
+            <input type="button" value="+" class="orange" onclick="document.calculator.ans.value+='+'">
+            <br>
+            <input type="button" value="4" class="gray" onclick="document.calculator.ans.value+='4'">
+            <input type="button" value="5" class="gray" onclick="document.calculator.ans.value+='5'">
+            <input type="button" value="6" class="gray" onclick="document.calculator.ans.value+='6'">
+            <input type="button" value="−" class="orange" onclick="document.calculator.ans.value+='-'">
+            <br>
+            <input type="button" value="1" class="gray" onclick="document.calculator.ans.value+='1'">
+            <input type="button" value="2" class="gray" onclick="document.calculator.ans.value+='2'">
+            <input type="button" value="3" class="gray" onclick="document.calculator.ans.value+='3'">
+            <input type="button" value="×" class="orange" onclick="document.calculator.ans.value+='*'">
+            <br>
+            <input type="button" value="0" class="gray" onclick="document.calculator.ans.value+='0'">
+            <input type="reset" value="C" class="white" onclick="document.calculator.ans.value+='C'">
+            <input type="button" value="=" class="white" onclick="document.calculator.ans.value=eval(document.calculator.ans.value)">
+            <input type="button" value="÷" class="orange" onclick="document.calculator.ans.value+='/'">
+        </form>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="./Script/script.js"></script>
+</body>
+</html>
